@@ -7,4 +7,5 @@ const app = express()
 app.use(bodyParser.json());
 app.use('/products', productRouter)
 
+
 export default app
